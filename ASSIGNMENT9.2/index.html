@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive student portfolio demonstrating adaptive typography and images.">
+    <title>Assignment 9.2 - Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <a class="logo" href="#home">MyPortfolio</a>
+
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Introduction section -->
+        <section class="hero content-container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">STUDENT • LEARNER • CREATOR</p>
+
+                <h1>Building My Skills, One Project at a Time</h1>
+
+                <p class="hero-description">
+                    Welcome to my portfolio. I am learning web development
+                    and programming by creating practical projects and
+                    exploring new technologies.
+                </p>
+
+                <a class="primary-button" href="#projects">
+                    View My Projects
+                </a>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <img
+                    class="hero-image"
+                    src="IMAGES/Screenshot 2026-10-24 073833.png"
+                    alt="Portfolio profile or workspace photograph"
+                >
+            </div>
+        </section>
+
+        <!-- Article section -->
+        <article class="article content-container" id="about">
+            <p class="eyebrow">MY LEARNING JOURNEY</p>
+
+            <h2>Why Responsive Design Matters</h2>
+
+            <p>
+                Responsive web design helps websites work well on devices
+                of different sizes. A page should be comfortable to read
+                on a desktop monitor, tablet, or mobile phone without
+                forcing users to zoom or scroll horizontally.
+            </p>
+
+            <p>
+                Responsive typography uses flexible font sizes and
+                comfortable line spacing. Properties such as
+                <code>rem</code>, <code>em</code>, and <code>clamp()</code>
+                help text adapt to available space while remaining readable.
+            </p>
+
+            <img
+                class="article-image"
+                src="IMAGES/Screenshot 2026-10-24 073833.png"
+                alt="A project or workspace photograph"
+                loading="lazy"
+            >
+
+            <h2>Learning Through Practice</h2>
+
+            <p>
+                Building small projects is a useful way to understand
+                HTML and CSS. Testing at different viewport widths helps
+                reveal layout problems such as overflowing text, stretched
+                images, and crowded navigation.
+            </p>
+        </article>
+
+        <!-- Project cards -->
+        <section class="projects content-container" id="projects">
+            <p class="eyebrow">MY WORK</p>
+            <h2>Featured Projects</h2>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <img
+                        src="IMAGES/Screenshot 2026-10-24 073048.png"
+                        alt="Website design project"
+                        loading="lazy"
+                    >
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>
+                            A personal website built with HTML and CSS
+                            to present skills and projects.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img
+                        src="IMAGES/Screenshot 2026-10-24 071838.png"
+                        alt="Responsive layout project"
+                        loading="lazy"
+                    >
+                    <div class="project-info">
+                        <h3>Responsive Layout</h3>
+                        <p>
+                            A practice project using flexible layouts,
+                            responsive typography, and images.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Assignment 9.2 — Responsive Typography &amp; Images</p>
+    </footer>
+
+</body>
+</html>
